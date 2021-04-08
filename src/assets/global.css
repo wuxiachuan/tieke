@@ -1,0 +1,93 @@
+/*全局样式*/
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1360px;
+}
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.el-card{
+    padding: 5px !important;
+}
+.wheelInfo-list{
+    width: 100%;
+    list-style: none;
+    height: 600px;
+    padding: 0;
+    font-size: 14px;
+    color: #409EFF;
+    overflow: auto;
+    float: left;
+    margin-top:10px;
+}
+.wheelInfo-list-item{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid  #DCDFE6;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    font-size: 13px;
+}
+.wheelInfo-list-item:hover{
+    background-color: #EBEEF5;
+}
+.choosen{
+    background-color: #DCDFE6 !important;
+}
+.notfinish{
+    color: red;
+}
+.listContainer{
+    text-align: center;
+    line-height: 40px;
+}
+.wheelInfoHead{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: auto;
+}
+.wheelInfoList1{
+    width: 5%;
+    text-align: center;
+    float: left;
+}
+.wheelInfoList2{
+    width: 15%;
+    text-align: center;
+    float: left;
+}
+.wheelInfoList3{
+    width: 12%;
+    text-align: center;
+    float: left;
+}
+.wheelInfoList4{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+.wheelInfoList5{
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+.wheelInfoList6{
+    float: right;
+    width: 28%;
+    text-align: center;
+}
+
